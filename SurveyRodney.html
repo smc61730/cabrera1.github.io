@@ -1,0 +1,82 @@
+<!DOCTYPE html> 
+<html lang="en" xml:lang="en"> 
+ <head> 
+    <meta charset="utf-8"> 
+    <title>Rodney</title> 
+    <style>
+    form { background-color:#eaeaea; width: 800px; font-family: Arial, sans-serif; padding: 10px;}
+label { float: left; width: 150px;
+text-align: right; padding-right: 10px; margin-top: 10px; }
+input, textarea { margin-top: 10px; margin-left:10px} #mySubmit { margin-left: 110px; }
+    </style>
+ </head>
+ <body>
+	<h1>How well do you know Rodney? </h1>
+
+	<form>
+			<label for="name">Name:</label>
+			<input tabindex="1" type="text" id="name" name="name"><br />
+			<label for="email">Email:</label>
+			<input type="text" id="email" name="email" size="20"><br /><br />
+			<label for="Gender">Gender:</label>
+			<input tabindex="1" type="text" id="Gender" name="Gender"><br />
+			<label for="Age">Age:</label>
+			<input tabindex="1" type="text" id="Age" name="Age"><br />
+
+
+		What is Rodney's Favorite Music to listen to? (select all that apply)  <br />
+		
+		<input name="Pop" type="checkbox" value="Pop">Pop
+		<input name="Hip-Hop" type="checkbox" value="Hip-Hop">Hip-Hop
+		<input name="EDM" type="checkbox" value="EDM">EDM
+		<input name="Country" type="checkbox" value="Country">Country
+		<input name="Classical" type="checkbox" value="Classical">Classical	
+
+	<br /><br />What is Rodney's Favorite Sport? : 
+		<select>
+			<option value="Swim">Swim</option>
+			<option value="Basketball">Basketball</option>
+			<option value="Baseball">Baseball</option>
+			<option value="Volleyball">Volleyball</option>
+			<option value="Track">Track</option>
+			<option value="Tennis">Tennis</option>
+			<option value="Golf">Golf</option>
+			<option value="Lacrosse">Lacrosse</option>
+			<option value="Soccer">Soccer</option>
+			<option value="Cross Country">Cross Country</option>
+		</select>
+<br /><br />Where did Rodney attend college? : 
+		<select>
+			<option value="Marymount University">Marymount Univeristy</option>
+			<option value="George Mason University">George Mason University</option>
+			<option value="James Madison Univeristy">James Madison Univeristy</option>
+			<option value="American University">American University</option>
+			<option value="George Washington University">George Washington University</option>
+			<option value="Georgetown">Georgetown</option>
+		</select>
+
+<br /><br />What is Rodney's Major? : 
+		<select>
+			<option value="Mathematics">Mathematics</option>
+			<option value="Information Technology">Information Technology</option>
+			<option value="Business Administration">Business Administration</option>
+			<option value="Communications">Communications</option>
+			<option value="Criminal Justice">Criminal Justice</option>
+			<option value="Psychology">Psychology</option>
+			<option value="Undecided">Undecided</option>
+			<option value="Education">Education</option> 
+			</select>
+
+
+		<br /><br /> <label for="myChoice">
+What's Rodneys Favorite Number? : </label><br><br /><br />
+1 <input type="range" name="myChoice" id="myChoice"> 100
+
+	<br /><br /> <label for="myDate">Choose a Date to meet Rodney</label> 
+	<input type="date" name="myDate" id="myDate">
+		
+		<br /><br /><input type="submit" value="Submit Survey">
+	
+	</form>
+ </body>
+</html>
